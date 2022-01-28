@@ -1,0 +1,172 @@
+{
+	"id": "2baf3665-5a20-4fa8-9193-ccf4bc1d1e7c",
+	"name": "HW1",
+	"timestamp": "2022-01-27T09:33:22.243Z",
+	"collection_id": "19328708-126d2aef-e9b5-437f-9549-a20689900856",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b60150a7-85f3-46d0-ad76-850530b12b60",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=Kate&age=35",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				125
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "26767862-b352-4f53-8333-55fa1723f586",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 156,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				156
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b2a6d8e8-feff-4a67-a408-2de549f5d0ee",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Kate&age=35&weight=63",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				101
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9e24d425-42fa-4e3e-bc7a-6ae75d345c08",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Kate&age=35&salary=1000",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				120
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b8413767-83d7-4dac-86cd-e3166a0606d4",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Kate&age=35&salary=1000",
+			"time": 89,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				89
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c5057782-c698-4804-b6d9-562f8b3bf6b2",
+			"name": "EP_6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Kate&age=35&salary=1000",
+			"time": 103,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				103
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b31c2ca6-0334-45ef-9d9e-7b2146ba0ad8",
+			"name": "EP_7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				119
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 813,
+	"collection": {
+		"requests": [
+			{
+				"id": "b60150a7-85f3-46d0-ad76-850530b12b60",
+				"method": "GET"
+			},
+			{
+				"id": "26767862-b352-4f53-8333-55fa1723f586",
+				"method": "POST"
+			},
+			{
+				"id": "b2a6d8e8-feff-4a67-a408-2de549f5d0ee",
+				"method": "GET"
+			},
+			{
+				"id": "9e24d425-42fa-4e3e-bc7a-6ae75d345c08",
+				"method": "GET"
+			},
+			{
+				"id": "b8413767-83d7-4dac-86cd-e3166a0606d4",
+				"method": "GET"
+			},
+			{
+				"id": "c5057782-c698-4804-b6d9-562f8b3bf6b2",
+				"method": "GET"
+			},
+			{
+				"id": "b31c2ca6-0334-45ef-9d9e-7b2146ba0ad8",
+				"method": "POST"
+			}
+		]
+	}
+}
