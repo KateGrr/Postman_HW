@@ -1,37 +1,43 @@
 {
-	"id": "950b242a-ab9c-40fd-ab8f-3fa9d1ae4e49",
-	"name": "HW2",
-	"timestamp": "2022-01-31T07:19:00.780Z",
+	"id": "77576ba5-069a-48b6-bcec-5513d98683fe",
+	"name": "KateGrr_HW2",
+	"timestamp": "2022-01-31T13:02:31.757Z",
 	"collection_id": "19328708-32adbbdd-e71b-4973-94d2-115b0d9f87ed",
 	"folder_id": 0,
 	"environment_id": "efdde136-8dcf-400d-9543-727b1b7bc2d9",
-	"totalPass": 38,
+	"totalPass": 39,
 	"totalFail": 0,
 	"results": [
 		{
 			"id": "e1d85177-0486-468f-bbc0-56314f8f88da",
 			"name": "/first",
 			"url": "http://162.55.220.72:5005/first",
-			"time": 106,
+			"time": 348,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
 			},
 			"tests": {
-				"Status code is 200": true
+				"Status code is 200": true,
+				"Body matches string": true
 			},
 			"testPassFailCounts": {
 				"Status code is 200": {
 					"pass": 1,
 					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
 				}
 			},
 			"times": [
-				106
+				348
 			],
 			"allTests": [
 				{
-					"Status code is 200": true
+					"Status code is 200": true,
+					"Body matches string": true
 				}
 			]
 		},
@@ -39,7 +45,7 @@
 			"id": "1b9e2d2d-9c87-4ac6-a530-8411f1a18c9d",
 			"name": "/user_info_3",
 			"url": "http://162.55.220.72:5005/user_info_3",
-			"time": 80,
+			"time": 85,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -51,8 +57,7 @@
 				"Your test salary = 1000": true,
 				"Your test name = request's name": true,
 				"Your test age = reqest's age": true,
-				"Your test salary = reqest's salary": true,
-				"Your teat salary = reqest's salary": true
+				"Your test salary = reqest's salary": true
 			},
 			"testPassFailCounts": {
 				"Status code is 200": {
@@ -82,14 +87,10 @@
 				"Your test salary = reqest's salary": {
 					"pass": 1,
 					"fail": 0
-				},
-				"Your teat salary = reqest's salary": {
-					"pass": 1,
-					"fail": 0
 				}
 			},
 			"times": [
-				80
+				85
 			],
 			"allTests": [
 				{
@@ -99,8 +100,7 @@
 					"Your test salary = 1000": true,
 					"Your test name = request's name": true,
 					"Your test age = reqest's age": true,
-					"Your test salary = reqest's salary": true,
-					"Your teat salary = reqest's salary": true
+					"Your test salary = reqest's salary": true
 				}
 			]
 		},
@@ -108,7 +108,7 @@
 			"id": "6f315e38-bbb1-4242-8543-1748630ad45a",
 			"name": "/object_info_3",
 			"url": "http://162.55.220.72:5005/object_info_3?name=Mike&age=40&salary=1500",
-			"time": 98,
+			"time": 86,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -153,7 +153,7 @@
 				}
 			},
 			"times": [
-				98
+				86
 			],
 			"allTests": [
 				{
@@ -171,7 +171,7 @@
 			"id": "c68d1150-be89-4b43-b05c-faadc9f1d704",
 			"name": "/object_info_4",
 			"url": "http://162.55.220.72:5005/object_info_4?name=Masha&age=42&salary=2000",
-			"time": 83,
+			"time": 87,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -211,7 +211,7 @@
 				}
 			},
 			"times": [
-				83
+				87
 			],
 			"allTests": [
 				{
@@ -228,7 +228,7 @@
 			"id": "e909dc6b-7b36-4f56-80a2-18c18e6325aa",
 			"name": "/user_info_2",
 			"url": "http://162.55.220.72:5005/user_info_2",
-			"time": 98,
+			"time": 85,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -313,7 +313,7 @@
 				}
 			},
 			"times": [
-				98
+				85
 			],
 			"allTests": [
 				{
@@ -337,7 +337,7 @@
 		}
 	],
 	"count": 1,
-	"totalTime": 465,
+	"totalTime": 691,
 	"collection": {
 		"requests": [
 			{

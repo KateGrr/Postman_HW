@@ -14,9 +14,12 @@
 						"exec": [
 							"//1. Отправить запрос.",
 							"//2. Статус код 200",
-							"//3. Проверить, что в body приходит правильный string.",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
+							"});",
+							"//3. Проверить, что в body приходит правильный string.",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"This is the first responce from server!\");",
 							"});"
 						],
 						"type": "text/javascript"
@@ -81,8 +84,8 @@
 							"//11. Вывести в консоль параметр family из response.",
 							"console.log(responseJson.family);",
 							"//12. Проверить что u_salary_1_5_year в ответе равно salary*4 (salary забрать из request)",
-							"pm.test(\"Your teat salary = reqest's salary\", function () {",
-							"    pm.expect(responseJson.salary).to.eql(+req.salary);",
+							"pm.test(\"Your test salary = reqest's salary\", function () {",
+							"    pm.expect(responseJson.family.u_salary_1_5_year).to.eql(req.salary*4);",
 							"})"
 						],
 						"type": "text/javascript"
@@ -265,11 +268,8 @@
 							"    pm.expect(+resp.salary[2]).to.eql(req.salary*3);",
 							"});",
 							"//15. Создать в окружении переменную name",
-							"pm.environment.set(\"name\", \"Name\");",
 							"//16. Создать в окружении переменную age",
-							"pm.environment.set(\"age\", 0);",
 							"//17. Создать в окружении переменную salary",
-							"pm.environment.set(\"salary\", 100);",
 							"//18. Передать в окружение переменную name",
 							"pm.environment.set(\"name\", req.name);",
 							"//19. Передать в окружение переменную age",
