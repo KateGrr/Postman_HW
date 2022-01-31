@@ -1,0 +1,365 @@
+{
+	"id": "950b242a-ab9c-40fd-ab8f-3fa9d1ae4e49",
+	"name": "HW2",
+	"timestamp": "2022-01-31T07:19:00.780Z",
+	"collection_id": "19328708-32adbbdd-e71b-4973-94d2-115b0d9f87ed",
+	"folder_id": 0,
+	"environment_id": "efdde136-8dcf-400d-9543-727b1b7bc2d9",
+	"totalPass": 38,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e1d85177-0486-468f-bbc0-56314f8f88da",
+			"name": "/first",
+			"url": "http://162.55.220.72:5005/first",
+			"time": 106,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				106
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1b9e2d2d-9c87-4ac6-a530-8411f1a18c9d",
+			"name": "/user_info_3",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Your test name = Kate": true,
+				"Your test age = 35": true,
+				"Your test salary = 1000": true,
+				"Your test name = request's name": true,
+				"Your test age = reqest's age": true,
+				"Your test salary = reqest's salary": true,
+				"Your teat salary = reqest's salary": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name = Kate": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test age = 35": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test salary = 1000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name = request's name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test age = reqest's age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test salary = reqest's salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your teat salary = reqest's salary": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				80
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Your test name = Kate": true,
+					"Your test age = 35": true,
+					"Your test salary = 1000": true,
+					"Your test name = request's name": true,
+					"Your test age = reqest's age": true,
+					"Your test salary = reqest's salary": true,
+					"Your teat salary = reqest's salary": true
+				}
+			]
+		},
+		{
+			"id": "6f315e38-bbb1-4242-8543-1748630ad45a",
+			"name": "/object_info_3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Mike&age=40&salary=1500",
+			"time": 98,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check name = reqest's name": true,
+				"Check age = reqest's age": true,
+				"Check dog name": true,
+				"Check dog age": true,
+				"Check dog name = Luky": true,
+				"Check dog age = 4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name = reqest's name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check age = reqest's age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check dog name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check dog age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check dog name = Luky": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check dog age = 4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check name = reqest's name": true,
+					"Check age = reqest's age": true,
+					"Check dog name": true,
+					"Check dog age": true,
+					"Check dog name = Luky": true,
+					"Check dog age = 4": true
+				}
+			]
+		},
+		{
+			"id": "c68d1150-be89-4b43-b05c-faadc9f1d704",
+			"name": "/object_info_4",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Masha&age=42&salary=2000",
+			"time": 83,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check name = reqest's name": true,
+				"Check age = reqest's age": true,
+				"Check salary[0] = req.salary": true,
+				"Check salary[1] = req.salary*2": true,
+				"Check salary[2] = req.salary*3": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name = reqest's name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check age = reqest's age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary[0] = req.salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary[1] = req.salary*2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary[2] = req.salary*3": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				83
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check name = reqest's name": true,
+					"Check age = reqest's age": true,
+					"Check salary[0] = req.salary": true,
+					"Check salary[1] = req.salary*2": true,
+					"Check salary[2] = req.salary*3": true
+				}
+			]
+		},
+		{
+			"id": "e909dc6b-7b36-4f56-80a2-18c18e6325aa",
+			"name": "/user_info_2",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 98,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check start_qa_salary": true,
+				"Check qa_salary_after_6_months": true,
+				"qa_salary_after_12_months": true,
+				"Check qa_salary_after_1.5_year": true,
+				"Check qa_salary_after_3.5_years": true,
+				"Check person": true,
+				"Check start_qa_salary = salary": true,
+				"Check qa_salary_after_6_months = salary*2": true,
+				"Check qa_salary_after_12_months = salary*2.7": true,
+				"Check qa_salary_after_1.5_year = salary*3.3": true,
+				"Check qa_salary_after_3.5_year = salary*3.8": true,
+				"Check person.u_name[1] = salary": true,
+				"Check person.u_age = age": true,
+				"Check u_salary_5_years = salary*4.2": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check start_qa_salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_6_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_12_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_1.5_year": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_3.5_years": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check start_qa_salary = salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_6_months = salary*2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_12_months = salary*2.7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_1.5_year = salary*3.3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_3.5_year = salary*3.8": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check person.u_name[1] = salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check person.u_age = age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check u_salary_5_years = salary*4.2": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check start_qa_salary": true,
+					"Check qa_salary_after_6_months": true,
+					"qa_salary_after_12_months": true,
+					"Check qa_salary_after_1.5_year": true,
+					"Check qa_salary_after_3.5_years": true,
+					"Check person": true,
+					"Check start_qa_salary = salary": true,
+					"Check qa_salary_after_6_months = salary*2": true,
+					"Check qa_salary_after_12_months = salary*2.7": true,
+					"Check qa_salary_after_1.5_year = salary*3.3": true,
+					"Check qa_salary_after_3.5_year = salary*3.8": true,
+					"Check person.u_name[1] = salary": true,
+					"Check person.u_age = age": true,
+					"Check u_salary_5_years = salary*4.2": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 465,
+	"collection": {
+		"requests": [
+			{
+				"id": "e1d85177-0486-468f-bbc0-56314f8f88da",
+				"method": "GET"
+			},
+			{
+				"id": "1b9e2d2d-9c87-4ac6-a530-8411f1a18c9d",
+				"method": "POST"
+			},
+			{
+				"id": "6f315e38-bbb1-4242-8543-1748630ad45a",
+				"method": "GET"
+			},
+			{
+				"id": "c68d1150-be89-4b43-b05c-faadc9f1d704",
+				"method": "GET"
+			},
+			{
+				"id": "e909dc6b-7b36-4f56-80a2-18c18e6325aa",
+				"method": "POST"
+			}
+		]
+	}
+}
