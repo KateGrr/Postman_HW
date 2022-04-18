@@ -1,0 +1,335 @@
+{
+	"id": "b4063eca-0e14-4b56-8bd2-03c8d3737c66",
+	"name": "KateGrr_HW3",
+	"timestamp": "2022-02-18T11:29:29.976Z",
+	"collection_id": "19328708-c7d61a6d-fd92-4090-85a0-ae482afafd1a",
+	"folder_id": 0,
+	"environment_id": "efdde136-8dcf-400d-9543-727b1b7bc2d9",
+	"totalPass": 21,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d933306a-790f-4edc-a45a-66ad21b61f1a",
+			"name": "/login",
+			"url": "http://162.55.220.72:5005/login",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				128
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4722ffe5-6a63-4dc9-b5d3-762bf38a4d5c",
+			"name": "/user_info",
+			"url": "http://162.55.220.72:5005/user_info",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check start_qa_salary": true,
+				"Check qa_salary_after_6_months": true,
+				"Check qa_salary_after_12_months": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check start_qa_salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_6_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_12_months": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				90
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check start_qa_salary": true,
+					"Check qa_salary_after_6_months": true,
+					"Check qa_salary_after_12_months": true
+				}
+			]
+		},
+		{
+			"id": "d813a358-c35c-4f53-8247-ebf85ac93e17",
+			"name": "/new_data",
+			"url": "http://162.55.220.72:5005/new_data",
+			"time": 89,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check salary": true,
+				"Check salary*2": true,
+				"Check salary*3": true,
+				"2-й элемент массива salary больше 1-го и 0-го": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary*2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary*3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"2-й элемент массива salary больше 1-го и 0-го": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				89
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check salary": true,
+					"Check salary*2": true,
+					"Check salary*3": true,
+					"2-й элемент массива salary больше 1-го и 0-го": true
+				}
+			]
+		},
+		{
+			"id": "6a7e3f16-82f9-4d5b-bf8d-58808f5a02c1",
+			"name": "/test_pet_info",
+			"url": "http://162.55.220.72:5005/test_pet_info",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check daily_food": true,
+				"Check daily_sleep": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check daily_food": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check daily_sleep": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				88
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check daily_food": true,
+					"Check daily_sleep": true
+				}
+			]
+		},
+		{
+			"id": "d51768c4-8453-45a7-8c52-bae6a2039111",
+			"name": "/get_test_user",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check name": true,
+				"Check age": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check age": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				88
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check name": true,
+					"Check age": true
+				}
+			]
+		},
+		{
+			"id": "522d5bb7-a5d8-4408-b322-699419c4f7eb",
+			"name": "/currency",
+			"url": "http://162.55.220.72:5005/currency",
+			"time": 963,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				963
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d07a5b43-ddc3-462d-907d-d9b3212dec25",
+			"name": "/curr_byn",
+			"url": "http://162.55.220.72:5005/curr_byn",
+			"time": 302,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				302
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "9101bd5c-f975-43e4-9a64-9a05f6904e1a",
+			"name": "***",
+			"url": "http://162.55.220.72:5005/currency",
+			"time": 596,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				596
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2344,
+	"collection": {
+		"requests": [
+			{
+				"id": "d933306a-790f-4edc-a45a-66ad21b61f1a",
+				"method": "POST"
+			},
+			{
+				"id": "4722ffe5-6a63-4dc9-b5d3-762bf38a4d5c",
+				"method": "POST"
+			},
+			{
+				"id": "d813a358-c35c-4f53-8247-ebf85ac93e17",
+				"method": "POST"
+			},
+			{
+				"id": "6a7e3f16-82f9-4d5b-bf8d-58808f5a02c1",
+				"method": "POST"
+			},
+			{
+				"id": "d51768c4-8453-45a7-8c52-bae6a2039111",
+				"method": "POST"
+			},
+			{
+				"id": "522d5bb7-a5d8-4408-b322-699419c4f7eb",
+				"method": "POST"
+			},
+			{
+				"id": "d07a5b43-ddc3-462d-907d-d9b3212dec25",
+				"method": "POST"
+			},
+			{
+				"id": "9101bd5c-f975-43e4-9a64-9a05f6904e1a",
+				"method": "POST"
+			}
+		]
+	}
+}
